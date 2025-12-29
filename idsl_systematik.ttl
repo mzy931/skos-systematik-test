@@ -673,7 +673,6 @@ idsl_systematik:H a skos:Concept ;
 idsl_systematik: a skos:ConceptScheme ;
     dct:created "2024-06-07"^^xsd:date ;
     dct:creator "Dein Name"@de ;
-    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
     dct:title "Systematik-Beispiel mit SKOS"@de ;
     skos:hasTopConcept idsl_systematik:A,
         idsl_systematik:AK,
@@ -695,4 +694,5 @@ idsl_systematik: a skos:ConceptScheme ;
         idsl_systematik:W,
         idsl_systematik:Z,
         idsl_systematik:a .
+
 
