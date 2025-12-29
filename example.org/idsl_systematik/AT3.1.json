@@ -7,6 +7,12 @@
   "notation": [
     "AT3.1"
   ],
+  "broader": {
+    "id": "https://example.org/idsl_systematik/AT",
+    "prefLabel": {
+      "de": "Ältere Texte"
+    }
+  },
   "inScheme": [
     {
       "id": "https://example.org/idsl_systematik/",
