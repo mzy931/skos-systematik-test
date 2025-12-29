@@ -533,14 +533,6 @@ idsl_systematik:a a skos:Concept ;
     skos:prefLabel "Bücher zur Ausleihe"@de ;
     skos:topConceptOf idsl_systematik: .
 
-idsl_systematik:AT3 a skos:Concept ;
-    skos:broader idsl_systematik:AT ;
-    skos:inScheme idsl_systematik: ;
-    skos:narrower idsl_systematik:AT3.1 ;
-    skos:notation "AT3" ;
-    skos:prefLabel "Literaturgeschichte Mittelalter bis Erscheinungsjahr 1999"@de ;
-    skos:scopeNote "Antike bis Spätmittelalter"@de .
-
 idsl_systematik:GT a skos:Concept ;
     skos:inScheme idsl_systematik: ;
     skos:narrower idsl_systematik:GT1,
@@ -556,6 +548,7 @@ idsl_systematik:AT a skos:Concept ;
     skos:narrower idsl_systematik:AT1,
         idsl_systematik:AT2,
         idsl_systematik:AT3,
+        ids_systematik: AT3.1,
         idsl_systematik:AT4 ;
     skos:notation "AT" ;
     skos:prefLabel "Ältere Texte"@de ;
@@ -699,6 +692,7 @@ idsl_systematik: a skos:ConceptScheme ;
         idsl_systematik:W,
         idsl_systematik:Z,
         idsl_systematik:a .
+
 
 
 
