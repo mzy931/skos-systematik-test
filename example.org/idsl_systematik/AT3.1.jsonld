@@ -2,22 +2,11 @@
   "id": "https://example.org/idsl_systematik/AT3.1",
   "type": "Concept",
   "prefLabel": {
-    "de": "Literaturgeschichte Mittelalter ab Erscheinungsjahr 2000"
-  },
-  "scopeNote": {
-    "de": [
-      "Antike bis Spätmittelalter"
-    ]
+    "de": "Literaturgeschichte Mittelalter (Antike bis Spätmittelalter) ab Erscheinungsjahr 2000"
   },
   "notation": [
     "AT3.1"
   ],
-  "broader": {
-    "id": "https://example.org/idsl_systematik/AT3",
-    "prefLabel": {
-      "de": "Literaturgeschichte Mittelalter bis Erscheinungsjahr 1999"
-    }
-  },
   "inScheme": [
     {
       "id": "https://example.org/idsl_systematik/",
