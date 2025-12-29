@@ -24,6 +24,10 @@ colour:grassgreen a skos:Concept ;
     skos:prefLabel "grass-green"@en, "Grasgrün"@de ;
     skos:inScheme colour: .
 
+colour:yellow a skos:Concept ;
+    skos:prefLabel "yellow"@en, "Gelb"@de ;
+    skos:topConceptOf colour: .
+
 colour:red a skos:Concept ;
     skos:prefLabel "red"@en, "Rot"@de ;
     skos:topConceptOf colour: .
