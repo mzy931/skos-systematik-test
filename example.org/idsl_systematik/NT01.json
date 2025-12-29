@@ -1,8 +1,8 @@
 {
-  "id": "https://example.org/idsl_systematik/NT2",
+  "id": "https://example.org/idsl_systematik/NT01",
   "type": "Concept",
   "prefLabel": {
-    "de": "Barockliteratur (ab Theobald Hock 1573)"
+    "de": "Reformationszeit"
   },
   "note": {
     "de": [
@@ -11,11 +11,11 @@
   },
   "scopeNote": {
     "de": [
-      "Autor*innen mit Geburtsjahr zwischen 1573 bis 1653"
+      "Autor*innen mit Geburtsjahr zwischen 1500 und 1572"
     ]
   },
   "notation": [
-    "NT2"
+    "NT01"
   ],
   "broader": {
     "id": "https://example.org/idsl_systematik/NT",

@@ -14,9 +14,15 @@
   ],
   "narrower": [
     {
-      "id": "https://example.org/idsl_systematik/NT1",
+      "id": "https://example.org/idsl_systematik/NT01",
       "prefLabel": {
         "de": "Reformationszeit"
+      }
+    },
+    {
+      "id": "https://example.org/idsl_systematik/NT02",
+      "prefLabel": {
+        "de": "Barockliteratur (ab Theobald Hock 1573)"
       }
     },
     {
@@ -35,12 +41,6 @@
       "id": "https://example.org/idsl_systematik/NT12",
       "prefLabel": {
         "de": "Schriftsteller*innen ab 1980 (einschließlich Migrant*innenliteratur)"
-      }
-    },
-    {
-      "id": "https://example.org/idsl_systematik/NT2",
-      "prefLabel": {
-        "de": "Barockliteratur (ab Theobald Hock 1573)"
       }
     },
     {
