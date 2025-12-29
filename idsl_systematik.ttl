@@ -58,12 +58,17 @@ idsl_systematik:AT2 a skos:Concept ;
     skos:notation "AT2" ;
     skos:prefLabel "Einzeltexte <Altertumskunde>"@de .
 
+idsl_systematik:AT3 a skos:Concept ;
+    skos:broader idsl_systematik:AT ;
+    skos:inScheme idsl_systematik: ;
+    skos:notation "AT3" ;
+    skos:prefLabel "Literaturgeschichte Mittelalter (Antike bis Spätmittelalter) bis Erscheinungsjahr 1999"@de .
+
 idsl_systematik:AT3.1 a skos:Concept ;
-    skos:broader idsl_systematik:AT3 ;
+    skos:broader idsl_systematik:AT ;
     skos:inScheme idsl_systematik: ;
     skos:notation "AT3.1" ;
-    skos:prefLabel "Literaturgeschichte Mittelalter ab Erscheinungsjahr 2000"@de ;
-    skos:scopeNote "Antike bis Spätmittelalter"@de .
+    skos:prefLabel "Literaturgeschichte Mittelalter (Antike bis Spätmittelalter) ab Erscheinungsjahr 2000"@de .
 
 idsl_systematik:AT4 a skos:Concept ;
     skos:broader idsl_systematik:AT ;
@@ -694,5 +699,6 @@ idsl_systematik: a skos:ConceptScheme ;
         idsl_systematik:W,
         idsl_systematik:Z,
         idsl_systematik:a .
+
 
 
