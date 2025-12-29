@@ -3,6 +3,22 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
+idsl_systematik:NT01 a skos:Concept ;
+    skos:broader idsl_systematik:NT ;
+    skos:inScheme idsl_systematik: ;
+    skos:notation "NT01" ;
+    skos:note "Primär- und Sekundärliteratur zu den Autor*innen stehen nebeneinander"@de ;
+    skos:prefLabel "Reformationszeit"@de ;
+    skos:scopeNote "Autor*innen mit Geburtsjahr zwischen 1500 und 1572"@de .
+
+idsl_systematik:NT02 a skos:Concept ;
+    skos:broader idsl_systematik:NT ;
+    skos:inScheme idsl_systematik: ;
+    skos:notation "NT02" ;
+    skos:note "Primär- und Sekundärliteratur zu den Autor*innen stehen nebeneinander"@de ;
+    skos:prefLabel "Barockliteratur (ab Theobald Hock 1573)"@de ;
+    skos:scopeNote "Autor*innen mit Geburtsjahr zwischen 1573 bis 1653"@de .
+
 idsl_systematik:A a skos:Concept ;
     skos:inScheme idsl_systematik: ;
     skos:notation "A" ;
@@ -247,14 +263,6 @@ idsl_systematik:Ma a skos:Concept ;
     skos:scopeNote "Bibelausgaben, Apokryphen // Konkordanzen, Bibliographien, Handbücher und Nachschlagewerke // Dogmatik, Dogmengeschichte // Liturgiewissenschaft // Hymnologie // Theologische Texte und kultische Texte wie Meßbücher, Ordensregeln, Beichten, Lieder- und Andachtsbücher // Bibliographien zur Bedeutungskunde // Wörterbücher u.ä. zur Bedeutungskunde // Allgemeines zur Bedeutungskunde // Ereignisbedeutung: Typologie, Gebärden // Dingbedeutung: Enzyklopädische Werke und Verwandtes, Tiere (Bestiarien), Pflanzen (Herbarien), Personifikationen, Mythologische Figuren u.ä., Steine (Lapidarien), Farben, Zahlen, Architektur, andere Dinge als Bedeutungsträger // Heraldik, Emblematik, Metaphorik, Etymologie, Allegorese antiker Dichtung, Bibelkommentare und Verwandtes, Nachschlagewerke zur Bedeutungskunde // Christliche Kunst"@de ;
     skos:topConceptOf idsl_systematik: .
 
-idsl_systematik:NT1 a skos:Concept ;
-    skos:broader idsl_systematik:NT ;
-    skos:inScheme idsl_systematik: ;
-    skos:notation "NT1" ;
-    skos:note "Primär- und Sekundärliteratur zu den Autor*innen stehen nebeneinander"@de ;
-    skos:prefLabel "Reformationszeit"@de ;
-    skos:scopeNote "Autor*innen mit Geburtsjahr zwischen 1500 und 1572"@de .
-
 idsl_systematik:NT10 a skos:Concept ;
     skos:broader idsl_systematik:NT ;
     skos:inScheme idsl_systematik: ;
@@ -277,14 +285,6 @@ idsl_systematik:NT12 a skos:Concept ;
     skos:notation "NT12" ;
     skos:note "Primär- und Sekundärliteratur zu den Autor*innen stehen nebeneinander"@de ;
     skos:prefLabel "Schriftsteller*innen ab 1980 (einschließlich Migrant*innenliteratur)"@de .
-
-idsl_systematik:NT2 a skos:Concept ;
-    skos:broader idsl_systematik:NT ;
-    skos:inScheme idsl_systematik: ;
-    skos:notation "NT2" ;
-    skos:note "Primär- und Sekundärliteratur zu den Autor*innen stehen nebeneinander"@de ;
-    skos:prefLabel "Barockliteratur (ab Theobald Hock 1573)"@de ;
-    skos:scopeNote "Autor*innen mit Geburtsjahr zwischen 1573 bis 1653"@de .
 
 idsl_systematik:NT3 a skos:Concept ;
     skos:broader idsl_systematik:NT ;
@@ -550,7 +550,7 @@ idsl_systematik:Sp a skos:Concept ;
         idsl_systematik:Sp4,
         idsl_systematik:Sp5 ;
     skos:notation "Sp" ;
-    skos:prefLabel "Sprachwissenschaft (Linguistik)"@de ;
+    skos:prefLabel "Sprachwissenschaft"@de ;
     skos:topConceptOf idsl_systematik: .
 
 idsl_systematik:Sp5 a skos:Concept ;
@@ -629,11 +629,9 @@ idsl_systematik:Sp1_Sp2 a skos:Concept ;
 
 idsl_systematik:NT a skos:Concept ;
     skos:inScheme idsl_systematik: ;
-    skos:narrower idsl_systematik:NT1,
-        idsl_systematik:NT10,
+    skos:narrower idsl_systematik:NT10,
         idsl_systematik:NT11,
         idsl_systematik:NT12,
-        idsl_systematik:NT2,
         idsl_systematik:NT3,
         idsl_systematik:NT4,
         idsl_systematik:NT5,
@@ -671,7 +669,6 @@ idsl_systematik:H a skos:Concept ;
 idsl_systematik: a skos:ConceptScheme ;
     dct:created "2024-06-07"^^xsd:date ;
     dct:creator "Dein Name"@de ;
-    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
     dct:title "Systematik-Beispiel mit SKOS"@de ;
     skos:hasTopConcept idsl_systematik:A,
         idsl_systematik:AK,
