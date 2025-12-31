@@ -4,6 +4,11 @@
   "prefLabel": {
     "de": "Serien (Ältere Texte)"
   },
+  "editorialNote": {
+    "de": [
+      "Disambiguierung zu Se"
+    ]
+  },
   "notation": [
     "AT1"
   ],

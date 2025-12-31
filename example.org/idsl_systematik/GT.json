@@ -4,6 +4,11 @@
   "prefLabel": {
     "de": "Graphische Texte"
   },
+  "editorialNote": {
+    "de": [
+      "GT auf Hierarchiestufe 2 (Sammelbände, Anthologien) entfernt."
+    ]
+  },
   "scopeNote": {
     "de": [
       "Graphic Novels / überwiegend deutschsprachiger Autor*innen"
