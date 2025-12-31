@@ -35,14 +35,14 @@
     {
       "id": "https://example.org/idsl_systematik/Sp4.5",
       "prefLabel": {
-        "de": "Allgemeine historische Linguistik und Dialektologie, Sonstige Sprachen"
+        "de": "Allg. historische Linguistik und Dialektologie, Sonstige Sprachen"
       }
     }
   ],
   "broader": {
     "id": "https://example.org/idsl_systematik/Sp",
     "prefLabel": {
-      "de": "Sprachwissenschaft"
+      "de": "Sprachwissenschaft (Linguistik)"
     }
   },
   "inScheme": [

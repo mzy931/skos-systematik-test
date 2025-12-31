@@ -6,7 +6,7 @@
   },
   "scopeNote": {
     "de": [
-      "Graphic Novels überwiegend deutschsprachiger Autor*innen"
+      "Graphic Novels / überwiegend deutschsprachiger Autor*innen"
     ]
   },
   "notation": [
@@ -16,19 +16,13 @@
     {
       "id": "https://example.org/idsl_systematik/GT1",
       "prefLabel": {
-        "de": "Graphische Texte von Autor*innen bis Geburtsjahr 1979"
+        "de": "Werke von Autor*innen bis Geburtsjahr 1979"
       }
     },
     {
       "id": "https://example.org/idsl_systematik/GT2",
       "prefLabel": {
-        "de": "Graphische von Autor*innen ab Geburtsjahr 1980"
-      }
-    },
-    {
-      "id": "https://example.org/idsl_systematik/GTEntfällt",
-      "prefLabel": {
-        "de": "GTEntfällt???"
+        "de": "Werke von Autor*innen ab Geburtsjahr 1980"
       }
     }
   ],

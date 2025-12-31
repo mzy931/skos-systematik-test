@@ -4,9 +4,9 @@
   "prefLabel": {
     "de": "Neuere Texte (Autor*innen ab dem Geburtsjahr 1500)"
   },
-  "scopeNote": {
+  "note": {
     "de": [
-      "Erforderlich???"
+      "Maßgeblich für die Einordnung in die einzelnen Gruppen ist der Name und das Geburtsjahr der Autor*innen. I. Primärliteratur: a) Gesamtausgaben, b) Teilsammlungen, c) Briefe, Tagebücher u.ä., d) Einzelausgaben (alphabetisch sortiert), e) selbständige Bibliographien; II. Sekundärliteratur: im Alphabet der Autor*innen, Jahrbücher, Mitteilungen der Dichtergesellschaften, Wörterbücher"
     ]
   },
   "notation": [
@@ -14,15 +14,9 @@
   ],
   "narrower": [
     {
-      "id": "https://example.org/idsl_systematik/NT01",
+      "id": "https://example.org/idsl_systematik/NT1",
       "prefLabel": {
-        "de": "Reformationszeit"
-      }
-    },
-    {
-      "id": "https://example.org/idsl_systematik/NT02",
-      "prefLabel": {
-        "de": "Barockliteratur (ab Theobald Hock 1573)"
+        "de": "Reformationszeit (ab 1500)"
       }
     },
     {
@@ -41,6 +35,12 @@
       "id": "https://example.org/idsl_systematik/NT12",
       "prefLabel": {
         "de": "Schriftsteller*innen ab 1980 (einschließlich Migrant*innenliteratur)"
+      }
+    },
+    {
+      "id": "https://example.org/idsl_systematik/NT2",
+      "prefLabel": {
+        "de": "Barockliteratur (ab Theobald Hock 1573)"
       }
     },
     {

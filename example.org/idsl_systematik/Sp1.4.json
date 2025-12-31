@@ -2,15 +2,15 @@
   "id": "https://example.org/idsl_systematik/Sp1.4",
   "type": "Concept",
   "prefLabel": {
-    "de": "Morphologie, Syntax, Semantik (bis Erscheinungsjahr 2002) <Allgemeine Sprachwissenschaft> "
+    "de": "Morphologie, Syntax, Semantik (bis Erscheinungsjahr 2002)"
   },
   "notation": [
     "Sp1.4"
   ],
   "broader": {
-    "id": "https://example.org/idsl_systematik/Sp1_Sp2",
+    "id": "https://example.org/idsl_systematik/Sp1",
     "prefLabel": {
-      "de": "Allgemeine und vergleichende Sprachwissenschaft; Angewandte und empirische Linguistik"
+      "de": "Allgemeine und vergleichende Sprachwissenschaft"
     }
   },
   "inScheme": [

@@ -2,12 +2,7 @@
   "id": "https://example.org/idsl_systematik/AK4",
   "type": "Concept",
   "prefLabel": {
-    "de": "Kulturgeschichte <Altertumskunde>"
-  },
-  "editorialNote": {
-    "de": [
-      "Die Benennung der ersten Hierarchieebene wurde zwecks Disambiguierung zur Benennung von Hb in spitzen Klammern ergänzt."
-    ]
+    "de": "Kulturgeschichte (Ältere Texte)"
   },
   "notation": [
     "AK4"
@@ -15,7 +10,7 @@
   "broader": {
     "id": "https://example.org/idsl_systematik/AK",
     "prefLabel": {
-      "de": "Altertumskunde"
+      "de": "Germanistische Altertumskunde"
     }
   },
   "inScheme": [

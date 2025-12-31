@@ -2,7 +2,7 @@
   "id": "https://example.org/idsl_systematik/AK5",
   "type": "Concept",
   "prefLabel": {
-    "de": "Religionswissenschaft <Altertumskunde>"
+    "de": "Religionswissenschaft (Altere Texte)"
   },
   "notation": [
     "AK5"
@@ -10,7 +10,7 @@
   "broader": {
     "id": "https://example.org/idsl_systematik/AK",
     "prefLabel": {
-      "de": "Altertumskunde"
+      "de": "Germanistische Altertumskunde"
     }
   },
   "inScheme": [

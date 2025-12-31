@@ -11,44 +11,44 @@
     {
       "id": "https://example.org/idsl_systematik/Sp3.1",
       "prefLabel": {
-        "de": "Grammatik (Gesamt- und Einzeldarstellungen) <Deutsche Sprachwissenschaft>"
+        "de": "Grammatik (Gesamt- und Einzeldarstellungen)"
       }
     },
     {
       "id": "https://example.org/idsl_systematik/Sp3.2",
       "prefLabel": {
-        "de": "Phonetik, Phonologie <Deutsche Sprachwissenschaft>"
+        "de": "Phonetik, Phonologie"
       }
     },
     {
       "id": "https://example.org/idsl_systematik/Sp3.3",
       "prefLabel": {
-        "de": "Morphologie, Syntax, Semantik, Pragmatik <Deutsche Sprachwissenschaft>"
+        "de": "Morphologie, Syntax, Semantik, Pragmatik"
       }
     },
     {
       "id": "https://example.org/idsl_systematik/Sp3.4",
       "prefLabel": {
-        "de": "Soziologie, Politik, Politische Rede, Öffentlichkeit, Sprachkritik <Deutsche Sprachwissenschaft>"
+        "de": "Soziologie, Politik, Politische Rede, Öffentlichkeit, Sprachkritik"
       }
     },
     {
       "id": "https://example.org/idsl_systematik/Sp3.5",
       "prefLabel": {
-        "de": "Phonetik, Phonologie, Morphologie, Syntax, Semantik, Pragmatik (ab Erscheinungsjahr 2003)  <Deutsche Sprachwissenschaft>"
+        "de": "Phonetik, Phonologie, Morphologie, Syntax, Semantik, Pragmatik (ab Erscheinungsjahr 2003)"
       }
     },
     {
       "id": "https://example.org/idsl_systematik/Sp3.6",
       "prefLabel": {
-        "de": "Graphematik / Schriftlinguistik  <Deutsche Sprachwissenschaft>"
+        "de": "Graphematik / Schriftlinguistik"
       }
     }
   ],
   "broader": {
     "id": "https://example.org/idsl_systematik/Sp",
     "prefLabel": {
-      "de": "Sprachwissenschaft"
+      "de": "Sprachwissenschaft (Linguistik)"
     }
   },
   "inScheme": [

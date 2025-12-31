@@ -2,11 +2,16 @@
   "id": "https://example.org/idsl_systematik/Se",
   "type": "Concept",
   "prefLabel": {
-    "de": "Serien und Reihen"
+    "de": "Serien"
+  },
+  "altLabel": {
+    "de": [
+      "Serien (Verlagsreihen)"
+    ]
   },
   "scopeNote": {
     "de": [
-      " Ältere philologische Schriften literaturwissenschaftlicher Verlagsreihen mit übergeordnetem Gesamttitel"
+      "Dies sind meist ältere philologische Schriften literaturwissenschaftlicher Verlagsreihen mit übergeordnetem Gesamttitel."
     ]
   },
   "notation": [

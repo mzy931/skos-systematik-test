@@ -1,11 +1,16 @@
 {
-  "id": "https://example.org/idsl_systematik/Sp1_Sp2",
+  "id": "https://example.org/idsl_systematik/Sp1",
   "type": "Concept",
   "prefLabel": {
-    "de": "Allgemeine und vergleichende Sprachwissenschaft; Angewandte und empirische Linguistik"
+    "de": "Allgemeine und vergleichende Sprachwissenschaft"
+  },
+  "scopeNote": {
+    "de": [
+      "Einführende Darstellungen linguistischer Themen"
+    ]
   },
   "notation": [
-    "Sp1_Sp2"
+    "Sp1"
   ],
   "narrower": [
     {
@@ -29,56 +34,26 @@
     {
       "id": "https://example.org/idsl_systematik/Sp1.3",
       "prefLabel": {
-        "de": "Phonetik, Phonologie (bis Erscheinungsjahr 2002) <Allgemeine Sprachwissenschaft>"
+        "de": "Phonetik, Phonologie (bis Erscheinungsjahr 2002)"
       }
     },
     {
       "id": "https://example.org/idsl_systematik/Sp1.4",
       "prefLabel": {
-        "de": "Morphologie, Syntax, Semantik (bis Erscheinungsjahr 2002) <Allgemeine Sprachwissenschaft> "
+        "de": "Morphologie, Syntax, Semantik (bis Erscheinungsjahr 2002)"
       }
     },
     {
       "id": "https://example.org/idsl_systematik/Sp1.5",
       "prefLabel": {
-        "de": "Phonetik, Phonologie, Morphologie, Syntax, Semantik (ab Erscheinungsjahr 2003) <Allgemeine Sprachwissenschaft> "
-      }
-    },
-    {
-      "id": "https://example.org/idsl_systematik/Sp2.1",
-      "prefLabel": {
-        "de": "Sprachphilosophie, Pragmatik, Logik, Semiotik  <Allgemeine Sprachwissenschaft> "
-      }
-    },
-    {
-      "id": "https://example.org/idsl_systematik/Sp2.2",
-      "prefLabel": {
-        "de": "Sprachsoziologie, Soziolinguistik, Spracherwerb, Mehrsprachigkeit <Allgemeine Sprachwissenschaft> "
-      }
-    },
-    {
-      "id": "https://example.org/idsl_systematik/Sp2.3",
-      "prefLabel": {
-        "de": "Kybernetik, Informations- und Kommunikationstheorie, mathematische Linguistik, Computerlinguistik <Allgemeine Sprachwissenschaft> "
-      }
-    },
-    {
-      "id": "https://example.org/idsl_systematik/Sp2.4",
-      "prefLabel": {
-        "de": "Deutsch als Fremdsprache, Fremdsprachenunterricht, Fachsprache, Deutsch als Minderheitensprache, Lexikographie <Allgemeine Sprachwissenschaft> "
-      }
-    },
-    {
-      "id": "https://example.org/idsl_systematik/Sp2.5",
-      "prefLabel": {
-        "de": "Psycholinguistik, Neurolinguistik, Kognitive Linguistik <Allgemeine Sprachwissenschaft> "
+        "de": "Phonetik, Phonologie, Morphologie, Syntax, Semantik (ab Erscheinungsjahr 2003)"
       }
     }
   ],
   "broader": {
     "id": "https://example.org/idsl_systematik/Sp",
     "prefLabel": {
-      "de": "Sprachwissenschaft"
+      "de": "Sprachwissenschaft (Linguistik)"
     }
   },
   "inScheme": [

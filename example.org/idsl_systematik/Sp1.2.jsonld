@@ -8,9 +8,9 @@
     "Sp1.2"
   ],
   "broader": {
-    "id": "https://example.org/idsl_systematik/Sp1_Sp2",
+    "id": "https://example.org/idsl_systematik/Sp1",
     "prefLabel": {
-      "de": "Allgemeine und vergleichende Sprachwissenschaft; Angewandte und empirische Linguistik"
+      "de": "Allgemeine und vergleichende Sprachwissenschaft"
     }
   },
   "inScheme": [

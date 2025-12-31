@@ -2,15 +2,15 @@
   "id": "https://example.org/idsl_systematik/Sp2.1",
   "type": "Concept",
   "prefLabel": {
-    "de": "Sprachphilosophie, Pragmatik, Logik, Semiotik  <Allgemeine Sprachwissenschaft> "
+    "de": "Sprachphilosophie, Pragmatik, Logik, Semiotik"
   },
   "notation": [
     "Sp2.1"
   ],
   "broader": {
-    "id": "https://example.org/idsl_systematik/Sp1_Sp2",
+    "id": "https://example.org/idsl_systematik/Sp2",
     "prefLabel": {
-      "de": "Allgemeine und vergleichende Sprachwissenschaft; Angewandte und empirische Linguistik"
+      "de": "Angewandte und empirische Linguistik"
     }
   },
   "inScheme": [

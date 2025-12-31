@@ -2,12 +2,7 @@
   "id": "https://example.org/idsl_systematik/D",
   "type": "Concept",
   "prefLabel": {
-    "de": "Dissertationen"
-  },
-  "scopeNote": {
-    "de": [
-      "Alte Dissertationen und dünne Schriften"
-    ]
+    "de": "Dissertationen (alte Dissertationen und dünne Schriften)"
   },
   "notation": [
     "D"

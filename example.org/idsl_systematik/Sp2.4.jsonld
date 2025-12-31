@@ -2,15 +2,15 @@
   "id": "https://example.org/idsl_systematik/Sp2.4",
   "type": "Concept",
   "prefLabel": {
-    "de": "Deutsch als Fremdsprache, Fremdsprachenunterricht, Fachsprache, Deutsch als Minderheitensprache, Lexikographie <Allgemeine Sprachwissenschaft> "
+    "de": "Deutsch als Fremdsprache, Fremdsprachenunterricht, Fachsprache, Deutsch als Minderheitensprache, Lexikographie"
   },
   "notation": [
     "Sp2.4"
   ],
   "broader": {
-    "id": "https://example.org/idsl_systematik/Sp1_Sp2",
+    "id": "https://example.org/idsl_systematik/Sp2",
     "prefLabel": {
-      "de": "Allgemeine und vergleichende Sprachwissenschaft; Angewandte und empirische Linguistik"
+      "de": "Angewandte und empirische Linguistik"
     }
   },
   "inScheme": [

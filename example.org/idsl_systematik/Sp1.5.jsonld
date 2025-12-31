@@ -2,15 +2,15 @@
   "id": "https://example.org/idsl_systematik/Sp1.5",
   "type": "Concept",
   "prefLabel": {
-    "de": "Phonetik, Phonologie, Morphologie, Syntax, Semantik (ab Erscheinungsjahr 2003) <Allgemeine Sprachwissenschaft> "
+    "de": "Phonetik, Phonologie, Morphologie, Syntax, Semantik (ab Erscheinungsjahr 2003)"
   },
   "notation": [
     "Sp1.5"
   ],
   "broader": {
-    "id": "https://example.org/idsl_systematik/Sp1_Sp2",
+    "id": "https://example.org/idsl_systematik/Sp1",
     "prefLabel": {
-      "de": "Allgemeine und vergleichende Sprachwissenschaft; Angewandte und empirische Linguistik"
+      "de": "Allgemeine und vergleichende Sprachwissenschaft"
     }
   },
   "inScheme": [

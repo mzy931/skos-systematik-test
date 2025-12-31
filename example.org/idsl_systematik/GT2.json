@@ -2,7 +2,7 @@
   "id": "https://example.org/idsl_systematik/GT2",
   "type": "Concept",
   "prefLabel": {
-    "de": "Graphische von Autor*innen ab Geburtsjahr 1980"
+    "de": "Werke von Autor*innen ab Geburtsjahr 1980"
   },
   "notation": [
     "GT2"

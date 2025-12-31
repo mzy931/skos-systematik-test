@@ -2,16 +2,27 @@
   "id": "https://example.org/idsl_systematik/Sp",
   "type": "Concept",
   "prefLabel": {
-    "de": "Sprachwissenschaft"
+    "de": "Sprachwissenschaft (Linguistik)"
+  },
+  "scopeNote": {
+    "de": [
+      "Umfasst alle Bereiche der germanistischen Linguistik von allgemeiner Sprachwissenschaft bis zu speziellen Anwendungsfeldern."
+    ]
   },
   "notation": [
     "Sp"
   ],
   "narrower": [
     {
-      "id": "https://example.org/idsl_systematik/Sp1_Sp2",
+      "id": "https://example.org/idsl_systematik/Sp1",
       "prefLabel": {
-        "de": "Allgemeine und vergleichende Sprachwissenschaft; Angewandte und empirische Linguistik"
+        "de": "Allgemeine und vergleichende Sprachwissenschaft"
+      }
+    },
+    {
+      "id": "https://example.org/idsl_systematik/Sp2",
+      "prefLabel": {
+        "de": "Angewandte und empirische Linguistik"
       }
     },
     {

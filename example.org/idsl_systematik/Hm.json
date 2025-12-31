@@ -2,7 +2,7 @@
   "id": "https://example.org/idsl_systematik/Hm",
   "type": "Concept",
   "prefLabel": {
-    "de": "Buchwesen, Medien, Presse, Kommuniktaion"
+    "de": "Buchwesen, Medien, Presse, Kommunikation"
   },
   "notation": [
     "Hm"
@@ -10,7 +10,7 @@
   "broader": {
     "id": "https://example.org/idsl_systematik/H",
     "prefLabel": {
-      "de": "Nachbardisziplinen"
+      "de": "\"Hilfswissenschaften\" = Nachbardisziplinen"
     }
   },
   "inScheme": [

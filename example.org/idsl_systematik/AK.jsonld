@@ -2,7 +2,7 @@
   "id": "https://example.org/idsl_systematik/AK",
   "type": "Concept",
   "prefLabel": {
-    "de": "Altertumskunde"
+    "de": "Germanistische Altertumskunde"
   },
   "notation": [
     "AK"
@@ -29,13 +29,13 @@
     {
       "id": "https://example.org/idsl_systematik/AK4",
       "prefLabel": {
-        "de": "Kulturgeschichte <Altertumskunde>"
+        "de": "Kulturgeschichte (Ältere Texte)"
       }
     },
     {
       "id": "https://example.org/idsl_systematik/AK5",
       "prefLabel": {
-        "de": "Religionswissenschaft <Altertumskunde>"
+        "de": "Religionswissenschaft (Altere Texte)"
       }
     },
     {

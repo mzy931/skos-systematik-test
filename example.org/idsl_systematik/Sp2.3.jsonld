@@ -2,15 +2,15 @@
   "id": "https://example.org/idsl_systematik/Sp2.3",
   "type": "Concept",
   "prefLabel": {
-    "de": "Kybernetik, Informations- und Kommunikationstheorie, mathematische Linguistik, Computerlinguistik <Allgemeine Sprachwissenschaft> "
+    "de": "Kybernetik, Informations- und Kommunikationstheorie, mathematische Linguistik, Computerlinguistik"
   },
   "notation": [
     "Sp2.3"
   ],
   "broader": {
-    "id": "https://example.org/idsl_systematik/Sp1_Sp2",
+    "id": "https://example.org/idsl_systematik/Sp2",
     "prefLabel": {
-      "de": "Allgemeine und vergleichende Sprachwissenschaft; Angewandte und empirische Linguistik"
+      "de": "Angewandte und empirische Linguistik"
     }
   },
   "inScheme": [

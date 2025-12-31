@@ -4,6 +4,11 @@
   "prefLabel": {
     "de": "Bücher zur Ausleihe"
   },
+  "altLabel": {
+    "de": [
+      "a - Bücher zur Ausleihe"
+    ]
+  },
   "note": {
     "de": [
       "Die mit « a » bezeichneten Bücher können bei der Aufsicht für 3 Wochen ausgeliehen werden. Wir benötigen den Nachweis, dass Sie am IDSL I oder IDSL II studieren, sowie den Personalausweis bzw. Reisepass + Meldebescheinigung. Es wird eine Stammkarte ausgefüllt, die für ein Semester gilt. Für jedes einzelne Buch muss ein Leihschein ausgefüllt und unterschrieben werden. (Für mittelhochdeutsche und althochdeutsche Wörterbücher und Grammatiken gibt es eine Semesterausleihe.) Eine Verlängerung ist nur zweimal möglich. Wer die Bücher nicht rechtzeitig zurückgibt, wird ein Semester lang für die Ausleihe gesperrt."

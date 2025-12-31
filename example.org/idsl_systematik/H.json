@@ -2,7 +2,7 @@
   "id": "https://example.org/idsl_systematik/H",
   "type": "Concept",
   "prefLabel": {
-    "de": "Nachbardisziplinen"
+    "de": "\"Hilfswissenschaften\" = Nachbardisziplinen"
   },
   "notation": [
     "H"
@@ -65,13 +65,13 @@
     {
       "id": "https://example.org/idsl_systematik/Hk",
       "prefLabel": {
-        "de": "Theater, Tanz, Film"
+        "de": "Theater, Tanz und Film"
       }
     },
     {
       "id": "https://example.org/idsl_systematik/Hm",
       "prefLabel": {
-        "de": "Buchwesen, Medien, Presse, Kommuniktaion"
+        "de": "Buchwesen, Medien, Presse, Kommunikation"
       }
     },
     {
@@ -95,13 +95,13 @@
     {
       "id": "https://example.org/idsl_systematik/Hr",
       "prefLabel": {
-        "de": "Naturwissenschaften, Mathematik, Technik"
+        "de": "Naturwissenschaft, Mathematik und Technik"
       }
     },
     {
       "id": "https://example.org/idsl_systematik/Hs",
       "prefLabel": {
-        "de": "Religionswissenschaften"
+        "de": "Rechtswissenschaft und Wirtschaftswissenschaften"
       }
     }
   ],
