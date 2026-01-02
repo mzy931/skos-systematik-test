@@ -625,9 +625,7 @@ idsl_systematik:Sp3 a skos:Concept ;
 idsl_systematik:NT a skos:Concept ;
     skos:inScheme idsl_systematik: ;
     skos:narrower idsl_systematik:NT1,
-        idsl_systematik:NT10,
-        idsl_systematik:NT11,
-        idsl_systematik:NT12,
+        idsl_systematik:NT1,
         idsl_systematik:NT2,
         idsl_systematik:NT3,
         idsl_systematik:NT4,
@@ -635,7 +633,9 @@ idsl_systematik:NT a skos:Concept ;
         idsl_systematik:NT6,
         idsl_systematik:NT7,
         idsl_systematik:NT8,
-        idsl_systematik:NT9 ;
+        idsl_systematik:NT9,
+        idsl_systematik:NT10,
+        idsl_systematik:NT11 ;
     skos:notation "NT" ;
     skos:note "Maßgeblich für die Einordnung in die einzelnen Gruppen ist der Name und das Geburtsjahr der Autor*innen. I. Primärliteratur: a) Gesamtausgaben, b) Teilsammlungen, c) Briefe, Tagebücher u.ä., d) Einzelausgaben (alphabetisch sortiert), e) selbständige Bibliographien; II. Sekundärliteratur: im Alphabet der Autor*innen, Jahrbücher, Mitteilungen der Dichtergesellschaften, Wörterbücher"@de ;
     skos:prefLabel "Neuere Texte (Autor*innen ab dem Geburtsjahr 1500)"@de ;
@@ -687,4 +687,5 @@ idsl_systematik: a skos:ConceptScheme ;
         idsl_systematik:W,
         idsl_systematik:Z,
         idsl_systematik:a .
+
 
