@@ -20,24 +20,6 @@
       }
     },
     {
-      "id": "https://example.org/idsl_systematik/NT10",
-      "prefLabel": {
-        "de": "Moderne (Schriftsteller*innen ab 1914)"
-      }
-    },
-    {
-      "id": "https://example.org/idsl_systematik/NT11",
-      "prefLabel": {
-        "de": "Schriftsteller*innen ab 1945"
-      }
-    },
-    {
-      "id": "https://example.org/idsl_systematik/NT12",
-      "prefLabel": {
-        "de": "Schriftsteller*innen ab 1980 (einschließlich Migrant*innenliteratur)"
-      }
-    },
-    {
       "id": "https://example.org/idsl_systematik/NT2",
       "prefLabel": {
         "de": "Barockliteratur (ab Theobald Hock 1573)"
@@ -83,6 +65,24 @@
       "id": "https://example.org/idsl_systematik/NT9",
       "prefLabel": {
         "de": "Expressionismus (ab G. Kaiser 1878)"
+      }
+    },
+    {
+      "id": "https://example.org/idsl_systematik/NT10",
+      "prefLabel": {
+        "de": "Moderne (Schriftsteller*innen ab 1914)"
+      }
+    },
+    {
+      "id": "https://example.org/idsl_systematik/NT11",
+      "prefLabel": {
+        "de": "Schriftsteller*innen ab 1945"
+      }
+    },
+    {
+      "id": "https://example.org/idsl_systematik/NT12",
+      "prefLabel": {
+        "de": "Schriftsteller*innen ab 1980 (einschließlich Migrant*innenliteratur)"
       }
     }
   ],
