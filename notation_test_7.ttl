@@ -6,73 +6,73 @@
 not_test_7:0001 a skos:Concept ;
     skos:broader not_test_7:NT ;
     skos:inScheme not_test_7: ;
-    skos:notation NT1 ;
+    skos:notation "NT1" ;
     skos:prefLabel "Reformationszeit (ab 1500)"@de .
 
 not_test_7:0002 a skos:Concept ;
     skos:broader not_test_7:NT ;
     skos:inScheme not_test_7: ;
-    skos:notation NT2 ;
+    skos:notation "NT2" ;
     skos:prefLabel "Barockliteratur (ab Theobald Hock 1573)"@de .
 
 not_test_7:0003 a skos:Concept ;
     skos:broader not_test_7:NT ;
     skos:inScheme not_test_7: ;
-    skos:notation NT3 ;
+    skos:notation "NT3" ;
     skos:prefLabel "Beginn der Aufklärung, Renaissance (ab Canitz 1654)"@de .
 
 not_test_7:0004 a skos:Concept ;
     skos:broader not_test_7:NT ;
     skos:inScheme not_test_7: ;
-    skos:notation NT4 ;
+    skos:notation "NT4" ;
     skos:prefLabel "Aufklärung, Vorbereitung der Klassik (ab Klopstock 1724)"@de .
 
 not_test_7:0005 a skos:Concept ;
     skos:broader not_test_7:NT ;
     skos:inScheme not_test_7: ;
-    skos:notation NT5 ;
+    skos:notation "NT5" ;
     skos:prefLabel "Goethe und seine Zeit (ab Herder 1744)"@de .
 
 not_test_7:0006 a skos:Concept ;
     skos:broader not_test_7:NT ;
     skos:inScheme not_test_7: ;
-    skos:notation NT6 ;
+    skos:notation "NT6" ;
     skos:prefLabel "Die Generation der Romantik (ab A. W. Schlegel 1767)"@de .
 
 not_test_7:0007 a skos:Concept ;
     skos:broader not_test_7:NT ;
     skos:inScheme not_test_7: ;
-    skos:notation NT7 ;
+    skos:notation "NT7" ;
     skos:prefLabel "Vormärz, Realismus des 19. Jahrhunderts (ab Grillparzer 1791)"@de .
 
 not_test_7:0008 a skos:Concept ;
     skos:broader not_test_7:NT ;
     skos:inScheme not_test_7: ;
-    skos:notation NT8 ;
+    skos:notation "NT8" ;
     skos:prefLabel "Naturalismus und Symbolismus (ab Nietzsche 1844)"@de .
 
 not_test_7:0009 a skos:Concept ;
     skos:broader not_test_7:NT ;
     skos:inScheme not_test_7: ;
-    skos:notation NT9 ;
+    skos:notation "NT9" ;
     skos:prefLabel "Expressionismus (ab G. Kaiser 1878)"@de .
 
 not_test_7:0010 a skos:Concept ;
     skos:broader not_test_7:NT ;
     skos:inScheme not_test_7: ;
-    skos:notation NT10 ;
+    skos:notation "NT10" ;
     skos:prefLabel "Moderne (Schriftsteller*innen ab 1914)"@de .
 
 not_test_7:0011 a skos:Concept ;
     skos:broader not_test_7:NT ;
     skos:inScheme not_test_7: ;
-    skos:notation NT11 ;
+    skos:notation "NT11" ;
     skos:prefLabel "Schriftsteller*innen ab 1945"@de .
 
 not_test_7:0012 a skos:Concept ;
     skos:broader not_test_7:NT ;
     skos:inScheme not_test_7: ;
-    skos:notation NT12 ;
+    skos:notation "NT12" ;
     skos:prefLabel "Schriftsteller*innen ab 1980 (einschließlich Migrant*innenliteratur)"@de .
 
 not_test_7:1000 a skos:Concept ;
@@ -98,4 +98,5 @@ not_test_7: a skos:ConceptScheme ;
     dct:creator "Tessa Test"@de ;
     dct:title "Notation Test 7"@de ;
     skos:hasTopConcept not_test_7:NT .
+
 
