@@ -7,7 +7,8 @@ idsl_systematik: a skos:ConceptScheme ;
     dct:created "2024-06-07"^^xsd:date ;
     dct:creator "Dein Name"@de ;
     dct:title "Systematik-Beispiel mit SKOS neu sortiert"@de ;
-    skos:hasTopConcept idsl_systematik:A,
+    skos:hasTopConcept idsl_systematik:a,
+        idsl_systematik:A,
         idsl_systematik:AK,
         idsl_systematik:AT,
         idsl_systematik:D,
@@ -25,8 +26,7 @@ idsl_systematik: a skos:ConceptScheme ;
         idsl_systematik:Sp,
         idsl_systematik:Vo,
         idsl_systematik:W,
-        idsl_systematik:Z,
-        idsl_systematik:a .
+        idsl_systematik:Z.
 
 idsl_systematik:a a skos:Concept ;
     skos:altLabel "a - Bücher zur Ausleihe"@de ;
@@ -676,6 +676,7 @@ idsl_systematik:Z a skos:Concept ;
     skos:note "Zeitschriftenhefte des laufenden Jahrgangs können beim Bibliotheksteam in den Zimmern 2.003 und 2.004 bei Hinterlegung eines Ausweises eingesehen werden, soweit die Hefte nicht in der Zeitschriftenauslage liegen."@de ;
     skos:prefLabel "Zeitschriften"@de ;
     skos:topConceptOf idsl_systematik: .
+
 
 
 
