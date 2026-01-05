@@ -1,5 +1,5 @@
 {
-  "id": "https://example.org/idsl_systematik/NT03",
+  "id": "https://example.org/idsl_systematik/NT3",
   "type": "Concept",
   "prefLabel": {
     "de": "Beginn der Aufklärung, Renaissance (ab Canitz 1654)"
@@ -10,7 +10,7 @@
     ]
   },
   "notation": [
-    "NT3"
+    "NT03"
   ],
   "broader": {
     "id": "https://example.org/idsl_systematik/NT",

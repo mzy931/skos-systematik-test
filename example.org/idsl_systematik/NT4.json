@@ -1,5 +1,5 @@
 {
-  "id": "https://example.org/idsl_systematik/NT04",
+  "id": "https://example.org/idsl_systematik/NT4",
   "type": "Concept",
   "prefLabel": {
     "de": "Aufklärung, Vorbereitung der Klassik (ab Klopstock 1724)"
@@ -10,7 +10,7 @@
     ]
   },
   "notation": [
-    "NT4"
+    "NT04"
   ],
   "broader": {
     "id": "https://example.org/idsl_systematik/NT",

@@ -1,5 +1,5 @@
 {
-  "id": "https://example.org/idsl_systematik/NT02",
+  "id": "https://example.org/idsl_systematik/NT2",
   "type": "Concept",
   "prefLabel": {
     "de": "Barockliteratur (ab Theobald Hock 1573)"
@@ -10,7 +10,7 @@
     ]
   },
   "notation": [
-    "NT2"
+    "NT02"
   ],
   "broader": {
     "id": "https://example.org/idsl_systematik/NT",

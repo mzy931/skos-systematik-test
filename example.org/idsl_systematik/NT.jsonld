@@ -14,7 +14,7 @@
   ],
   "narrower": [
     {
-      "id": "https://example.org/idsl_systematik/NT01",
+      "id": "https://example.org/idsl_systematik/NT1",
       "prefLabel": {
         "de": "Reformationszeit (ab 1500)"
       }
@@ -38,19 +38,19 @@
       }
     },
     {
-      "id": "https://example.org/idsl_systematik/NT02",
+      "id": "https://example.org/idsl_systematik/NT2",
       "prefLabel": {
         "de": "Barockliteratur (ab Theobald Hock 1573)"
       }
     },
     {
-      "id": "https://example.org/idsl_systematik/NT03",
+      "id": "https://example.org/idsl_systematik/NT3",
       "prefLabel": {
         "de": "Beginn der Aufklärung, Renaissance (ab Canitz 1654)"
       }
     },
     {
-      "id": "https://example.org/idsl_systematik/NT04",
+      "id": "https://example.org/idsl_systematik/NT4",
       "prefLabel": {
         "de": "Aufklärung, Vorbereitung der Klassik (ab Klopstock 1724)"
       }
