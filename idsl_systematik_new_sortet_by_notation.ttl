@@ -334,9 +334,6 @@ idsl_systematik:Ma a skos:Concept ;
 idsl_systematik:NT a skos:Concept ;
     skos:inScheme idsl_systematik: ;
     skos:narrower idsl_systematik:NT1,
-        idsl_systematik:NT10,
-        idsl_systematik:NT11,
-        idsl_systematik:NT12,
         idsl_systematik:NT2,
         idsl_systematik:NT3,
         idsl_systematik:NT4,
@@ -344,7 +341,10 @@ idsl_systematik:NT a skos:Concept ;
         idsl_systematik:NT6,
         idsl_systematik:NT7,
         idsl_systematik:NT8,
-        idsl_systematik:NT9 ;
+        idsl_systematik:NT9,
+        idsl_systematik:NT10,
+        idsl_systematik:NT11,
+        idsl_systematik:NT12;
     skos:notation "NT" ;
     skos:note "Maßgeblich für die Einordnung in die einzelnen Gruppen ist der Name und das Geburtsjahr der Autor*innen. I. Primärliteratur: a) Gesamtausgaben, b) Teilsammlungen, c) Briefe, Tagebücher u.ä., d) Einzelausgaben (alphabetisch sortiert), e) selbständige Bibliographien; II. Sekundärliteratur: im Alphabet der Autor*innen, Jahrbücher, Mitteilungen der Dichtergesellschaften, Wörterbücher"@de ;
     skos:prefLabel "Neuere Texte (Autor*innen ab dem Geburtsjahr 1500)"@de ;
@@ -356,8 +356,6 @@ idsl_systematik:NT1 a skos:Concept ;
     skos:notation "NT1" ;
     skos:note "Primär- und Sekundärliteratur zu den Autor*innen stehen nebeneinander"@de ;
     skos:prefLabel "Reformationszeit (ab 1500)"@de .
-
-
 
 idsl_systematik:NT2 a skos:Concept ;
     skos:broader idsl_systematik:NT ;
@@ -689,6 +687,7 @@ idsl_systematik:Z a skos:Concept ;
     skos:note "Zeitschriftenhefte des laufenden Jahrgangs können beim Bibliotheksteam in den Zimmern 2.003 und 2.004 bei Hinterlegung eines Ausweises eingesehen werden, soweit die Hefte nicht in der Zeitschriftenauslage liegen."@de ;
     skos:prefLabel "Zeitschriften"@de ;
     skos:topConceptOf idsl_systematik: .
+
 
 
 
