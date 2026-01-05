@@ -33,9 +33,21 @@
       }
     },
     {
+      "id": "https://example.org/not_test_7/0005",
+      "prefLabel": {
+        "de": "Goethe und seine Zeit (ab Herder 1744)"
+      }
+    },
+    {
       "id": "https://example.org/not_test_7/0006",
       "prefLabel": {
         "de": "Die Generation der Romantik (ab A. W. Schlegel 1767)"
+      }
+    },
+    {
+      "id": "https://example.org/not_test_7/0007",
+      "prefLabel": {
+        "de": "Vormärz, Realismus des 19. Jahrhunderts (ab Grillparzer 1791)"
       }
     },
     {
