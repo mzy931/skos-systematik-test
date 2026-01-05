@@ -1,5 +1,5 @@
 {
-  "id": "https://example.org/not_test_8/1000",
+  "id": "https://example.org/not_test_8/NT",
   "type": "Concept",
   "prefLabel": {
     "de": "Neuere Texte (Autor*innen ab dem Geburtsjahr 1500)"
@@ -63,6 +63,12 @@
       }
     },
     {
+      "id": "https://example.org/not_test_8/NT10",
+      "prefLabel": {
+        "de": "Moderne (Schriftsteller*innen ab 1914)"
+      }
+    },
+    {
       "id": "https://example.org/not_test_8/NT11",
       "prefLabel": {
         "de": "Schriftsteller*innen ab 1945"
@@ -79,7 +85,7 @@
     {
       "id": "https://example.org/not_test_8/",
       "title": {
-        "de": "Notation Test 7"
+        "de": "Notation Test 8"
       }
     }
   ],
@@ -92,7 +98,7 @@
     {
       "id": "https://example.org/not_test_8/",
       "title": {
-        "de": "Notation Test 7"
+        "de": "Notation Test 8"
       }
     }
   ],

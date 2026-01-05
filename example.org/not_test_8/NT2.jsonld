@@ -7,11 +7,17 @@
   "notation": [
     "NT2"
   ],
+  "broader": {
+    "id": "https://example.org/not_test_8/NT",
+    "prefLabel": {
+      "de": "Neuere Texte (Autor*innen ab dem Geburtsjahr 1500)"
+    }
+  },
   "inScheme": [
     {
       "id": "https://example.org/not_test_8/",
       "title": {
-        "de": "Notation Test 7"
+        "de": "Notation Test 8"
       }
     }
   ],
