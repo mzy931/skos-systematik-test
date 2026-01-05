@@ -1,5 +1,5 @@
 @prefix dct: <http://purl.org/dc/terms/> .
-@prefix idsl_systematik: <https://example.org/idsl_systematik/> .
+@prefix idsl_systematik: <https://example.org/idsl_systematik_new/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -689,6 +689,7 @@ idsl_systematik:Z a skos:Concept ;
     skos:note "Zeitschriftenhefte des laufenden Jahrgangs können beim Bibliotheksteam in den Zimmern 2.003 und 2.004 bei Hinterlegung eines Ausweises eingesehen werden, soweit die Hefte nicht in der Zeitschriftenauslage liegen."@de ;
     skos:prefLabel "Zeitschriften"@de ;
     skos:topConceptOf idsl_systematik: .
+
 
 
 
