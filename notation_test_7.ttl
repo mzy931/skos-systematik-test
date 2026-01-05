@@ -84,9 +84,9 @@ not_test_7:1000 a skos:Concept ;
         not_test_7:0002,
         not_test_7:0003,
         not_test_7:0004,
-        not_test_7:NT05,
+        not_test_7:0005,
         not_test_7:0006,
-        not_test_7:NT07,
+        not_test_7:0007,
         not_test_7:0008,
         not_test_7:0009 ;
     skos:notation "NT" ;
@@ -98,5 +98,6 @@ not_test_7: a skos:ConceptScheme ;
     dct:creator "Tessa Test"@de ;
     dct:title "Notation Test 7"@de ;
     skos:hasTopConcept not_test_7:NT .
+
 
 
