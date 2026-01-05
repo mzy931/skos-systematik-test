@@ -75,7 +75,7 @@ not_test_8:NT12 a skos:Concept ;
     skos:notation "NT12" ;
     skos:prefLabel "Schriftsteller*innen ab 1980 (einschließlich Migrant*innenliteratur)"@de .
 
-not_test_8:1000 a skos:Concept ;
+not_test_8:NT a skos:Concept ;
     skos:inScheme not_test_8: ;
     skos:narrower not_test_8:0001,
         not_test_8:NT1,
@@ -96,7 +96,8 @@ not_test_8:1000 a skos:Concept ;
 not_test_8: a skos:ConceptScheme ;
     dct:created "2021-11-02"^^xsd:date ;
     dct:creator "Tessa Test"@de ;
-    dct:title "Notation Test 7"@de ;
+    dct:title "Notation Test 8"@de ;
     skos:hasTopConcept not_test_8:NT .
+
 
 
