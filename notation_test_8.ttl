@@ -1,0 +1,102 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix not_test_8: <https://example.org/not_test_8/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+not_test_8:NT1 a skos:Concept ;
+    skos:broader not_test_8:NT ;
+    skos:inScheme not_test_8: ;
+    skos:notation "NT1" ;
+    skos:prefLabel "Reformationszeit (ab 1500)"@de .
+
+not_test_8:NT2 a skos:Concept ;
+    skos:broader not_test_8:NT ;
+    skos:inScheme not_test_8: ;
+    skos:notation "NT2" ;
+    skos:prefLabel "Barockliteratur (ab Theobald Hock 1573)"@de .
+
+not_test_8:NT3 a skos:Concept ;
+    skos:broader not_test_8:NT ;
+    skos:inScheme not_test_8: ;
+    skos:notation "NT3" ;
+    skos:prefLabel "Beginn der Aufklärung, Renaissance (ab Canitz 1654)"@de .
+
+not_test_8:NT4 a skos:Concept ;
+    skos:broader not_test_8:NT ;
+    skos:inScheme not_test_8: ;
+    skos:notation "NT4" ;
+    skos:prefLabel "Aufklärung, Vorbereitung der Klassik (ab Klopstock 1724)"@de .
+
+not_test_8:NT5 a skos:Concept ;
+    skos:broader not_test_8:NT ;
+    skos:inScheme not_test_8: ;
+    skos:notation "NT5" ;
+    skos:prefLabel "Goethe und seine Zeit (ab Herder 1744)"@de .
+
+not_test_8:NT6 a skos:Concept ;
+    skos:broader not_test_8:NT ;
+    skos:inScheme not_test_8: ;
+    skos:notation "NT6" ;
+    skos:prefLabel "Die Generation der Romantik (ab A. W. Schlegel 1767)"@de .
+
+not_test_8:NT7 a skos:Concept ;
+    skos:broader not_test_8:NT ;
+    skos:inScheme not_test_8: ;
+    skos:notation "NT7" ;
+    skos:prefLabel "Vormärz, Realismus des 19. Jahrhunderts (ab Grillparzer 1791)"@de .
+
+not_test_8:NT8 a skos:Concept ;
+    skos:broader not_test_8:NT ;
+    skos:inScheme not_test_8: ;
+    skos:notation "NT8" ;
+    skos:prefLabel "Naturalismus und Symbolismus (ab Nietzsche 1844)"@de .
+
+not_test_8:NT9 a skos:Concept ;
+    skos:broader not_test_8:NT ;
+    skos:inScheme not_test_8: ;
+    skos:notation "NT9" ;
+    skos:prefLabel "Expressionismus (ab G. Kaiser 1878)"@de .
+
+not_test_8:NT10 a skos:Concept ;
+    skos:broader not_test_8:NT ;
+    skos:inScheme not_test_8: ;
+    skos:notation "NT10" ;
+    skos:prefLabel "Moderne (Schriftsteller*innen ab 1914)"@de .
+
+not_test_8:NT11 a skos:Concept ;
+    skos:broader not_test_8:NT ;
+    skos:inScheme not_test_8: ;
+    skos:notation "NT11" ;
+    skos:prefLabel "Schriftsteller*innen ab 1945"@de .
+
+not_test_8:NT12 a skos:Concept ;
+    skos:broader not_test_8:NT ;
+    skos:inScheme not_test_8: ;
+    skos:notation "NT12" ;
+    skos:prefLabel "Schriftsteller*innen ab 1980 (einschließlich Migrant*innenliteratur)"@de .
+
+not_test_8:1000 a skos:Concept ;
+    skos:inScheme not_test_8: ;
+    skos:narrower not_test_8:0001,
+        not_test_8:NT1,
+        not_test_8:NT11,
+        not_test_8:NT12,
+        not_test_8:NT2,
+        not_test_8:NT3,
+        not_test_8:NT4,
+        not_test_8:NT5,
+        not_test_8:NT6,
+        not_test_8:NT7,
+        not_test_8:NT8,
+        not_test_8:NT9 ;
+    skos:notation "NT" ;
+    skos:prefLabel "Neuere Texte (Autor*innen ab dem Geburtsjahr 1500)"@de ;
+    skos:topConceptOf not_test_8: .
+
+not_test_8: a skos:ConceptScheme ;
+    dct:created "2021-11-02"^^xsd:date ;
+    dct:creator "Tessa Test"@de ;
+    dct:title "Notation Test 7"@de ;
+    skos:hasTopConcept not_test_8:NT .
+
+
