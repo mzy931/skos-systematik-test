@@ -241,10 +241,10 @@ idsl_systematik:Ma a skos:Concept ;
     skos:scopeNote "Bibelausgaben, Apokryphen // Konkordanzen, Bibliographien, Handbücher und Nachschlagewerke // Dogmatik, Dogmengeschichte // Liturgiewissenschaft // Hymnologie // Theologische Texte und kultische Texte wie Meßbücher, Ordensregeln, Beichten, Lieder- und Andachtsbücher // Bibliographien zur Bedeutungskunde // Wörterbücher u.ä. zur Bedeutungskunde // Allgemeines zur Bedeutungskunde // Ereignisbedeutung: Typologie, Gebärden // Dingbedeutung: Enzyklopädische Werke und Verwandtes, Tiere (Bestiarien), Pflanzen (Herbarien), Personifikationen, Mythologische Figuren u.ä., Steine (Lapidarien), Farben, Zahlen, Architektur, andere Dinge als Bedeutungsträger // Heraldik, Emblematik, Metaphorik, Etymologie, Allegorese antiker Dichtung, Bibelkommentare und Verwandtes, Nachschlagewerke zur Bedeutungskunde // Christliche Kunst"@de ;
     skos:topConceptOf idsl_systematik: .
 
-idsl_systematik:NT01 a skos:Concept ;
+idsl_systematik:NT1 a skos:Concept ;
     skos:broader idsl_systematik:NT ;
     skos:inScheme idsl_systematik: ;
-    skos:notation "NT1" ;
+    skos:notation "NT01" ;
     skos:note "Primär- und Sekundärliteratur zu den Autor*innen stehen nebeneinander"@de ;
     skos:prefLabel "Reformationszeit (ab 1500)"@de .
 
@@ -268,24 +268,24 @@ idsl_systematik:NT12 a skos:Concept ;
     skos:notation "NT12" ;
     skos:prefLabel "Schriftsteller*innen ab 1980 (einschließlich Migrant*innenliteratur)"@de .
 
-idsl_systematik:NT02 a skos:Concept ;
+idsl_systematik:NT2 a skos:Concept ;
     skos:broader idsl_systematik:NT ;
     skos:inScheme idsl_systematik: ;
-    skos:notation "NT2" ;
+    skos:notation "NT02" ;
     skos:note "Primär- und Sekundärliteratur zu den Autor*innen stehen nebeneinander"@de ;
     skos:prefLabel "Barockliteratur (ab Theobald Hock 1573)"@de .
 
-idsl_systematik:NT03 a skos:Concept ;
+idsl_systematik:NT3 a skos:Concept ;
     skos:broader idsl_systematik:NT ;
     skos:inScheme idsl_systematik: ;
-    skos:notation "NT3" ;
+    skos:notation "NT03" ;
     skos:note "Primär- und Sekundärliteratur zu den Autor*innen stehen nebeneinander"@de ;
     skos:prefLabel "Beginn der Aufklärung, Renaissance (ab Canitz 1654)"@de .
 
-idsl_systematik:NT04 a skos:Concept ;
+idsl_systematik:NT4 a skos:Concept ;
     skos:broader idsl_systematik:NT ;
     skos:inScheme idsl_systematik: ;
-    skos:notation "NT4" ;
+    skos:notation "NT04" ;
     skos:note "Primär- und Sekundärliteratur zu den Autor*innen stehen nebeneinander"@de ;
     skos:prefLabel "Aufklärung, Vorbereitung der Klassik (ab Klopstock 1724)"@de .
 
@@ -687,6 +687,7 @@ idsl_systematik: a skos:ConceptScheme ;
         idsl_systematik:W,
         idsl_systematik:Z,
         idsl_systematik:a .
+
 
 
 
