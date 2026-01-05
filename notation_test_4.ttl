@@ -1,0 +1,101 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix not_test_4: <https://example.org/not_test_4/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+not_test_4:0001 a skos:Concept ;
+    skos:broader not_test_4:NT ;
+    skos:inScheme not_test_4: ;
+    skos:notation "NT01" ;
+    skos:prefLabel "Reformationszeit (ab 1500)"@de .
+
+not_test_4:0010 a skos:Concept ;
+    skos:broader not_test_4:NT ;
+    skos:inScheme not_test_4: ;
+    skos:notation "NT10" ;
+    skos:prefLabel "Moderne (Schriftsteller*innen ab 1914)"@de .
+
+not_test_4:0011 a skos:Concept ;
+    skos:broader not_test_4:NT ;
+    skos:inScheme not_test_4: ;
+    skos:notation "NT11" ;
+    skos:prefLabel "Schriftsteller*innen ab 1945"@de .
+
+not_test_4:0012 a skos:Concept ;
+    skos:broader not_test_4:NT ;
+    skos:inScheme not_test_4: ;
+    skos:notation "NT12" ;
+    skos:prefLabel "Schriftsteller*innen ab 1980 (einschließlich Migrant*innenliteratur)"@de .
+
+not_test_4:0002 a skos:Concept ;
+    skos:broader not_test_4:NT ;
+    skos:inScheme not_test_4: ;
+    skos:notation "NT02" ;
+    skos:prefLabel "Barockliteratur (ab Theobald Hock 1573)"@de .
+
+not_test_4:0003 a skos:Concept ;
+    skos:broader not_test_4:NT ;
+    skos:inScheme not_test_4: ;
+    skos:notation "NT03" ;
+    skos:prefLabel "Beginn der Aufklärung, Renaissance (ab Canitz 1654)"@de .
+
+not_test_4:0004 a skos:Concept ;
+    skos:broader not_test_4:NT ;
+    skos:inScheme not_test_4: ;
+    skos:notation "NT4" ;
+    skos:prefLabel "Aufklärung, Vorbereitung der Klassik (ab Klopstock 1724)"@de .
+
+not_test_4:0005 a skos:Concept ;
+    skos:broader not_test_4:NT ;
+    skos:inScheme not_test_4: ;
+    skos:notation "NT05" ;
+    skos:prefLabel "Goethe und seine Zeit (ab Herder 1744)"@de .
+
+not_test_4:0006 a skos:Concept ;
+    skos:broader not_test_4:NT ;
+    skos:inScheme not_test_4: ;
+    skos:notation "NT06" ;
+    skos:prefLabel "Die Generation der Romantik (ab A. W. Schlegel 1767)"@de .
+
+not_test_4:0007 a skos:Concept ;
+    skos:broader not_test_4:NT ;
+    skos:inScheme not_test_4: ;
+    skos:notation "NT07" ;
+    skos:prefLabel "Vormärz, Realismus des 19. Jahrhunderts (ab Grillparzer 1791)"@de .
+
+not_test_4:0008 a skos:Concept ;
+    skos:broader not_test_4:NT ;
+    skos:inScheme not_test_4: ;
+    skos:notation "NT08" ;
+    skos:prefLabel "Naturalismus und Symbolismus (ab Nietzsche 1844)"@de .
+
+not_test_4:0009 a skos:Concept ;
+    skos:broader not_test_4:NT ;
+    skos:inScheme not_test_4: ;
+    skos:notation "NT09" ;
+    skos:prefLabel "Expressionismus (ab G. Kaiser 1878)"@de .
+
+not_test_4:1000 a skos:Concept ;
+    skos:inScheme not_test_4: ;
+    skos:narrower not_test_4:0001,
+        not_test_4:0010,
+        not_test_4:0011,
+        not_test_4:0012,
+        not_test_4:0002,
+        not_test_4:0003,
+        not_test_4:0004,
+        not_test_4:NT05,
+        not_test_4:0006,
+        not_test_4:NT07,
+        not_test_4:0008,
+        not_test_4:0009 ;
+    skos:notation "NT" ;
+    skos:prefLabel "Neuere Texte (Autor*innen ab dem Geburtsjahr 1500)"@de ;
+    skos:topConceptOf not_test_4: .
+
+not_test_4: a skos:ConceptScheme ;
+    dct:created "2021-11-02"^^xsd:date ;
+    dct:creator "Tessa Test"@de ;
+    dct:title "Notation Test 4"@de ;
+    skos:hasTopConcept not_test_4:NT .
+
