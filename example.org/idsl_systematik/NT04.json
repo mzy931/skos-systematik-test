@@ -1,8 +1,8 @@
 {
-  "id": "https://example.org/idsl_systematik/NT2",
+  "id": "https://example.org/idsl_systematik/NT04",
   "type": "Concept",
   "prefLabel": {
-    "de": "Barockliteratur (ab Theobald Hock 1573)"
+    "de": "Aufklärung, Vorbereitung der Klassik (ab Klopstock 1724)"
   },
   "note": {
     "de": [
@@ -10,7 +10,7 @@
     ]
   },
   "notation": [
-    "NT2"
+    "NT4"
   ],
   "broader": {
     "id": "https://example.org/idsl_systematik/NT",
