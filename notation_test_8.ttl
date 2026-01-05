@@ -77,18 +77,7 @@ not_test_8:NT12 a skos:Concept ;
 
 not_test_8:NT a skos:Concept ;
     skos:inScheme not_test_8: ;
-    skos:narrower not_test_8:0001,
-        not_test_8:NT1,
-        not_test_8:NT11,
-        not_test_8:NT12,
-        not_test_8:NT2,
-        not_test_8:NT3,
-        not_test_8:NT4,
-        not_test_8:NT5,
-        not_test_8:NT6,
-        not_test_8:NT7,
-        not_test_8:NT8,
-        not_test_8:NT9 ;
+    # skos:narrower entfernt: skos:narrower not_test_8:0001, not_test_8:NT1, not_test_8:NT11, not_test_8:NT12, not_test_8:NT2, not_test_8:NT3, not_test_8:NT4, not_test_8:NT5, not_test_8:NT6, not_test_8:NT7, not_test_8:NT8, not_test_8:NT9 ;
     skos:notation "NT" ;
     skos:prefLabel "Neuere Texte (Autor*innen ab dem Geburtsjahr 1500)"@de ;
     skos:topConceptOf not_test_8: .
@@ -98,6 +87,7 @@ not_test_8: a skos:ConceptScheme ;
     dct:creator "Tessa Test"@de ;
     dct:title "Notation Test 8"@de ;
     skos:hasTopConcept not_test_8:NT .
+
 
 
 
