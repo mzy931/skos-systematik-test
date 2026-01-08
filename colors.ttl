@@ -13,8 +13,10 @@ colour: a skos:ConceptScheme ;
 colour:violet a skos:Concept ;
     skos:prefLabel "Violett"@de, "violet"@en;
     skos:altLabel "Lila"@de, "purple"@en ;
+    skos:notation "2.0" ;
     skos:topConceptOf colour: .
 
 colour:blue a skos:Concept ;
     skos:prefLabel "Blau"@de, "blue"@en ;
+    skos:notation "1.0" ;
     skos:topConceptOf colour: .
