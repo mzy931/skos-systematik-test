@@ -5,6 +5,9 @@
     "en": "blue",
     "de": "Blau"
   },
+  "notation": [
+    "1.0"
+  ],
   "inScheme": [
     {
       "id": "https://example.org/colour/",

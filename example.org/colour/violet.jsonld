@@ -13,6 +13,9 @@
       "Lila"
     ]
   },
+  "notation": [
+    "2.0"
+  ],
   "inScheme": [
     {
       "id": "https://example.org/colour/",
