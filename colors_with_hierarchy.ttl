@@ -17,7 +17,7 @@ colour:violet a skos:Concept ;
 
 colour:green a skos:Concept ;
     skos:prefLabel "green"@en, "Grün"@de ;
-    skos:narrower colour:grassgreen, colour:sagegreen ;
+    skos:narrower colour:sagegreen, colour:grassgreen ;
     skos:topConceptOf colour: .
 
 colour:sagegreen a skos:Concept ;
