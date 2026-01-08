@@ -36,7 +36,7 @@ not_test_8:NT5 a skos:Concept ;
 not_test_8:NT6 a skos:Concept ;
     skos:broader not_test_8:NT ;
     skos:inScheme not_test_8: ;
-    skos:notation "NT6" ;
+    skos:notation "NT06" ;
     skos:prefLabel "Die Generation der Romantik (ab A. W. Schlegel 1767)"@de .
 
 not_test_8:NT7 a skos:Concept ;
@@ -87,6 +87,7 @@ not_test_8: a skos:ConceptScheme ;
     dct:creator "Tessa Test"@de ;
     dct:title "Notation Test 8"@de ;
     skos:hasTopConcept not_test_8:NT .
+
 
 
 
