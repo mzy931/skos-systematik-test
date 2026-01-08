@@ -3,6 +3,31 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
+idsl_systematik: a skos:ConceptScheme ;
+    dct:created "2024-06-07"^^xsd:date ;
+    dct:creator "Dein Name"@de ;
+    dct:title "Systematik-Beispiel mit SKOS"@de ;
+    skos:hasTopConcept  idsl_systematik:a,
+        idsl_systematik:A,
+        idsl_systematik:AK,
+        idsl_systematik:AT,
+        idsl_systematik:D,
+        idsl_systematik:Du,
+        idsl_systematik:E,
+        idsl_systematik:FT,
+        idsl_systematik:GT,
+        idsl_systematik:H,
+        idsl_systematik:K,
+        idsl_systematik:L,
+        idsl_systematik:M,
+        idsl_systematik:Ma,
+        idsl_systematik:NT,
+        idsl_systematik:Se,
+        idsl_systematik:Sp,
+        idsl_systematik:Vo,
+        idsl_systematik:W,
+        idsl_systematik:Z .
+
 idsl_systematik:A a skos:Concept ;
     skos:inScheme idsl_systematik: ;
     skos:notation "A" ;
@@ -665,30 +690,8 @@ idsl_systematik:H a skos:Concept ;
     skos:prefLabel "\"Hilfswissenschaften\" = Nachbardisziplinen"@de ;
     skos:topConceptOf idsl_systematik: .
 
-idsl_systematik: a skos:ConceptScheme ;
-    dct:created "2024-06-07"^^xsd:date ;
-    dct:creator "Dein Name"@de ;
-    dct:title "Systematik-Beispiel mit SKOS"@de ;
-    skos:hasTopConcept idsl_systematik:A,
-        idsl_systematik:AK,
-        idsl_systematik:AT,
-        idsl_systematik:D,
-        idsl_systematik:Du,
-        idsl_systematik:E,
-        idsl_systematik:FT,
-        idsl_systematik:GT,
-        idsl_systematik:H,
-        idsl_systematik:K,
-        idsl_systematik:L,
-        idsl_systematik:M,
-        idsl_systematik:Ma,
-        idsl_systematik:NT,
-        idsl_systematik:Se,
-        idsl_systematik:Sp,
-        idsl_systematik:Vo,
-        idsl_systematik:W,
-        idsl_systematik:Z,
-        idsl_systematik:a .
+
+
 
 
 
