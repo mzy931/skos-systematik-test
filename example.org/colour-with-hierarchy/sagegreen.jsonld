@@ -2,7 +2,7 @@
   "id": "https://example.org/colour-with-hierarchy/sagegreen",
   "type": "Concept",
   "prefLabel": {
-    "en": "grass-green",
+    "en": "sagegreen",
     "de": "Salbeigrün"
   },
   "broader": {
