@@ -35,3 +35,4 @@ colour:yellow a skos:Concept ;
 colour:red a skos:Concept ;
     skos:prefLabel "red"@en, "Rot"@de ;
     skos:topConceptOf colour: .
+
