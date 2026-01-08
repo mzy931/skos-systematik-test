@@ -22,7 +22,7 @@ colour:green a skos:Concept ;
 
 colour:sagegreen a skos:Concept ;
     skos:prefLabel "grass-green"@en, "Salbeigrün"@de ;
-    skos:inScheme colour:
+    skos:inScheme colour: .
     
 colour:grassgreen a skos:Concept ;
     skos:prefLabel "grass-green"@en, "Grasgrün"@de ;
