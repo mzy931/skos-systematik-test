@@ -12,6 +12,13 @@
         "en": "grass-green",
         "de": "Grasgrün"
       }
+    },
+    {
+      "id": "https://example.org/colour-with-hierarchy/sagegreen",
+      "prefLabel": {
+        "en": "grass-green",
+        "de": "Salbeigrün"
+      }
     }
   ],
   "inScheme": [
