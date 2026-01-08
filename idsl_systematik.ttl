@@ -241,6 +241,25 @@ idsl_systematik:Ma a skos:Concept ;
     skos:scopeNote "Bibelausgaben, Apokryphen // Konkordanzen, Bibliographien, Handbücher und Nachschlagewerke // Dogmatik, Dogmengeschichte // Liturgiewissenschaft // Hymnologie // Theologische Texte und kultische Texte wie Meßbücher, Ordensregeln, Beichten, Lieder- und Andachtsbücher // Bibliographien zur Bedeutungskunde // Wörterbücher u.ä. zur Bedeutungskunde // Allgemeines zur Bedeutungskunde // Ereignisbedeutung: Typologie, Gebärden // Dingbedeutung: Enzyklopädische Werke und Verwandtes, Tiere (Bestiarien), Pflanzen (Herbarien), Personifikationen, Mythologische Figuren u.ä., Steine (Lapidarien), Farben, Zahlen, Architektur, andere Dinge als Bedeutungsträger // Heraldik, Emblematik, Metaphorik, Etymologie, Allegorese antiker Dichtung, Bibelkommentare und Verwandtes, Nachschlagewerke zur Bedeutungskunde // Christliche Kunst"@de ;
     skos:topConceptOf idsl_systematik: .
 
+idsl_systematik:NT a skos:Concept ;
+    skos:inScheme idsl_systematik: ;
+    skos:narrower idsl_systematik:NT1,
+        idsl_systematik:NT2,
+        idsl_systematik:NT3,
+        idsl_systematik:NT4,
+        idsl_systematik:NT5,
+        idsl_systematik:NT6,
+        idsl_systematik:NT7,
+        idsl_systematik:NT8,
+        idsl_systematik:NT9,
+        idsl_systematik:NT10,
+        idsl_systematik:NT11, 
+        idsl_systematik:NT12 ;
+    skos:notation "NT" ;
+    skos:note "Maßgeblich für die Einordnung in die einzelnen Gruppen ist der Name und das Geburtsjahr der Autor*innen. I. Primärliteratur: a) Gesamtausgaben, b) Teilsammlungen, c) Briefe, Tagebücher u.ä., d) Einzelausgaben (alphabetisch sortiert), e) selbständige Bibliographien; II. Sekundärliteratur: im Alphabet der Autor*innen, Jahrbücher, Mitteilungen der Dichtergesellschaften, Wörterbücher"@de ;
+    skos:prefLabel "Neuere Texte (Autor*innen ab dem Geburtsjahr 1500)"@de ;
+    skos:topConceptOf idsl_systematik: .
+
 idsl_systematik:NT1 a skos:Concept ;
     skos:broader idsl_systematik:NT ;
     skos:inScheme idsl_systematik: ;
@@ -622,24 +641,7 @@ idsl_systematik:Sp3 a skos:Concept ;
     skos:notation "Sp3" ;
     skos:prefLabel "Deutsche Sprachwissenschaft"@de .
 
-idsl_systematik:NT a skos:Concept ;
-    skos:inScheme idsl_systematik: ;
-    skos:narrower idsl_systematik:NT1,
-        idsl_systematik:NT2,
-        idsl_systematik:NT3,
-        idsl_systematik:NT4,
-        idsl_systematik:NT5,
-        idsl_systematik:NT6,
-        idsl_systematik:NT7,
-        idsl_systematik:NT8,
-        idsl_systematik:NT9,
-        idsl_systematik:NT10,
-        idsl_systematik:NT11, 
-        idsl_systematik:NT12 ;
-    skos:notation "NT" ;
-    skos:note "Maßgeblich für die Einordnung in die einzelnen Gruppen ist der Name und das Geburtsjahr der Autor*innen. I. Primärliteratur: a) Gesamtausgaben, b) Teilsammlungen, c) Briefe, Tagebücher u.ä., d) Einzelausgaben (alphabetisch sortiert), e) selbständige Bibliographien; II. Sekundärliteratur: im Alphabet der Autor*innen, Jahrbücher, Mitteilungen der Dichtergesellschaften, Wörterbücher"@de ;
-    skos:prefLabel "Neuere Texte (Autor*innen ab dem Geburtsjahr 1500)"@de ;
-    skos:topConceptOf idsl_systematik: .
+
 
 idsl_systematik:H a skos:Concept ;
     skos:inScheme idsl_systematik: ;
@@ -687,6 +689,7 @@ idsl_systematik: a skos:ConceptScheme ;
         idsl_systematik:W,
         idsl_systematik:Z,
         idsl_systematik:a .
+
 
 
 
