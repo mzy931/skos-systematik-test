@@ -634,7 +634,7 @@ idsl_systematik:NT a skos:Concept ;
         idsl_systematik:NT8,
         idsl_systematik:NT9,
         idsl_systematik:NT10,
-        idsl_systematik:NT11 
+        idsl_systematik:NT11, 
         idsl_systematik:NT12 ;
     skos:notation "NT" ;
     skos:note "Maßgeblich für die Einordnung in die einzelnen Gruppen ist der Name und das Geburtsjahr der Autor*innen. I. Primärliteratur: a) Gesamtausgaben, b) Teilsammlungen, c) Briefe, Tagebücher u.ä., d) Einzelausgaben (alphabetisch sortiert), e) selbständige Bibliographien; II. Sekundärliteratur: im Alphabet der Autor*innen, Jahrbücher, Mitteilungen der Dichtergesellschaften, Wörterbücher"@de ;
@@ -687,6 +687,7 @@ idsl_systematik: a skos:ConceptScheme ;
         idsl_systematik:W,
         idsl_systematik:Z,
         idsl_systematik:a .
+
 
 
 
