@@ -1,5 +1,5 @@
 @prefix dct: <http://purl.org/dc/terms/> .
-@prefix ifdsl: <https://mzy931.github.io/skos-systematik-test/idsl_1> .
+@prefix ifdsl: <https://mzy931.github.io/skos-systematik-test/idsl_1_a> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -7,7 +7,7 @@ ifdsl: a skos:ConceptScheme ;
     dct:created "2026-01-01"^^xsd:date ;
     dct:creator <https://d-nb.info/gnd/1286271916> ;
     dct:description "Aufstellungssystematik der Bibliothek des IDSL1 an der Universität zu Köln"@de ;
-    dct:title "Systematik IdSL1"@de ;
+    dct:title "Systematik IdSL1_a"@de ;
     skos:hasTopConcept ifdsl:a,
         ifdsl:A,
         ifdsl:AK,
@@ -28,7 +28,7 @@ ifdsl: a skos:ConceptScheme ;
         ifdsl:Vo,
         ifdsl:W,
         ifdsl:Z ;
-    skos:prefLabel "Systematik IfdSL 1"@de .
+    skos:prefLabel "Systematik IfdSL 1_a"@de .
 
 ifdsl:A a skos:Concept ;
     skos:inScheme ifdsl: ;
@@ -371,67 +371,67 @@ ifdsl:Se a skos:Concept ;
     skos:topConceptOf ifdsl: .
 
 ifdsl:Sp1.0 a skos:Concept ;
-    skos:broader <https://mzy931.github.io/skos-systematik-test/Sp1+Sp2> ;
+    skos:broader ifdsl:Sp1plusSp2 ;
     skos:inScheme ifdsl: ;
     skos:notation "Sp1.0" ;
     skos:prefLabel "Linguistik, populär"@de .
 
 ifdsl:Sp1.1 a skos:Concept ;
-    skos:broader <https://mzy931.github.io/skos-systematik-test/Sp1+Sp2> ;
+    skos:broader ifdsl:Sp1plusSp2 ;
     skos:inScheme ifdsl: ;
     skos:notation "Sp1.1" ;
     skos:prefLabel "Geschichte der Sprachwissenschaft, Nachschlagewerke, Einführungen"@de .
 
 ifdsl:Sp1.2 a skos:Concept ;
-    skos:broader <https://mzy931.github.io/skos-systematik-test/Sp1+Sp2> ;
+    skos:broader ifdsl:Sp1plusSp2 ;
     skos:inScheme ifdsl: ;
     skos:notation "Sp1.2" ;
     skos:prefLabel "Allgemeines, Sprachtheorie"@de .
 
 ifdsl:Sp1.3 a skos:Concept ;
-    skos:broader <https://mzy931.github.io/skos-systematik-test/Sp1+Sp2> ;
+    skos:broader ifdsl:Sp1plusSp2 ;
     skos:inScheme ifdsl: ;
     skos:notation "Sp1.3" ;
     skos:prefLabel "Phonetik, Phonologie (bis Erscheinungsjahr 2002)"@de .
 
 ifdsl:Sp1.4 a skos:Concept ;
-    skos:broader <https://mzy931.github.io/skos-systematik-test/Sp1+Sp2> ;
+    skos:broader ifdsl:Sp1plusSp2 ;
     skos:inScheme ifdsl: ;
     skos:notation "Sp1.4" ;
     skos:prefLabel "Morphologie, Syntax, Semantik (bis Erscheinungsjahr 2002)"@de .
 
 ifdsl:Sp1.5 a skos:Concept ;
-    skos:broader <https://mzy931.github.io/skos-systematik-test/Sp1+Sp2> ;
+    skos:broader ifdsl:Sp1plusSp2 ;
     skos:inScheme ifdsl: ;
     skos:notation "Sp1.5" ;
     skos:prefLabel "Phonetik, Phonologie, Morphologie, Syntax, Semantik (ab Erscheinungsjahr 2003)"@de .
 
 ifdsl:Sp2.1 a skos:Concept ;
-    skos:broader <https://mzy931.github.io/skos-systematik-test/Sp1+Sp2> ;
+    skos:broader ifdsl:Sp1plusSp2 ;
     skos:inScheme ifdsl: ;
     skos:notation "Sp2.1" ;
     skos:prefLabel "Sprachphilosophie, Pragmatik, Logik, Semiotik"@de .
 
 ifdsl:Sp2.2 a skos:Concept ;
-    skos:broader <https://mzy931.github.io/skos-systematik-test/Sp1+Sp2> ;
+    skos:broader ifdsl:Sp1plusSp2 ;
     skos:inScheme ifdsl: ;
     skos:notation "Sp2.2" ;
     skos:prefLabel "Sprachsoziologie, Soziolinguistik, Spracherwerb, Mehrsprachigkeit"@de .
 
 ifdsl:Sp2.3 a skos:Concept ;
-    skos:broader <https://mzy931.github.io/skos-systematik-test/Sp1+Sp2> ;
+    skos:broader ifdsl:Sp1plusSp2 ;
     skos:inScheme ifdsl: ;
     skos:notation "Sp2.3" ;
     skos:prefLabel "Kybernetik, Informations- und Kommunikationstheorie, mathematische Linguistik, Computerlinguistik"@de .
 
 ifdsl:Sp2.4 a skos:Concept ;
-    skos:broader <https://mzy931.github.io/skos-systematik-test/Sp1+Sp2> ;
+    skos:broader ifdsl:Sp1plusSp2 ;
     skos:inScheme ifdsl: ;
     skos:notation "Sp2.4" ;
     skos:prefLabel "Deutsch als Fremdsprache, Fremdsprachenunterricht, Fachsprache, Deutsch als Minderheitensprache, Lexikographie"@de .
 
 ifdsl:Sp2.5 a skos:Concept ;
-    skos:broader <https://mzy931.github.io/skos-systematik-test/Sp1+Sp2> ;
+    skos:broader ifdsl:Sp1plusSp2 ;
     skos:inScheme ifdsl: ;
     skos:notation "Sp2.5" ;
     skos:prefLabel "Psycholinguistik, Neurolinguistik, Kognitive Linguistik"@de .
@@ -566,7 +566,7 @@ ifdsl:GT a skos:Concept ;
 
 ifdsl:Sp a skos:Concept ;
     skos:inScheme ifdsl: ;
-    skos:narrower <https://mzy931.github.io/skos-systematik-test/Sp1+Sp2>,
+    skos:narrower ifdsl:Sp1plusSp2,
         ifdsl:Sp3,
         ifdsl:Sp4,
         ifdsl:Sp5 ;
@@ -630,7 +630,7 @@ ifdsl:Sp3 a skos:Concept ;
     skos:notation "Sp3" ;
     skos:prefLabel "Deutsche Sprachwissenschaft"@de .
 
-<https://mzy931.github.io/skos-systematik-test/Sp1+Sp2> a skos:Concept ;
+ifdsl:Sp1plusSp2 a skos:Concept ;
     skos:broader ifdsl:Sp ;
     skos:inScheme ifdsl: ;
     skos:narrower ifdsl:Sp1.0,
