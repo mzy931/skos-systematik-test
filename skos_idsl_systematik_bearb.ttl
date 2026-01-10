@@ -27,7 +27,7 @@ ifdsl: a skos:ConceptScheme ;
         ifdsl:Sp,
         ifdsl:Vo,
         ifdsl:W,
-        ifdsl:Z,;
+        ifdsl:Z ;
     skos:prefLabel "Systematik IfdSL 1"@de .
 
 ifdsl:A a skos:Concept ;
@@ -668,6 +668,7 @@ ifdsl:H a skos:Concept ;
     skos:notation "H" ;
     skos:prefLabel "\"Hilfswissenschaften\" = Nachbardisziplinen"@de ;
     skos:topConceptOf ifdsl: .
+
 
 
 
