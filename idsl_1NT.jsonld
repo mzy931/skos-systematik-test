@@ -20,24 +20,6 @@
       }
     },
     {
-      "id": "https://mzy931.github.io/skos-systematik-test/idsl_1NT10",
-      "prefLabel": {
-        "de": "Moderne (Schriftsteller*innen ab 1914)"
-      }
-    },
-    {
-      "id": "https://mzy931.github.io/skos-systematik-test/idsl_1NT11",
-      "prefLabel": {
-        "de": "Schriftsteller*innen ab 1945"
-      }
-    },
-    {
-      "id": "https://mzy931.github.io/skos-systematik-test/idsl_1NT12",
-      "prefLabel": {
-        "de": "Schriftsteller*innen ab 1980 (einschließlich Migrant*innenliteratur)"
-      }
-    },
-    {
       "id": "https://mzy931.github.io/skos-systematik-test/idsl_1NT2",
       "prefLabel": {
         "de": "Barockliteratur (ab Theobald Hock 1573)"
@@ -83,6 +65,24 @@
       "id": "https://mzy931.github.io/skos-systematik-test/idsl_1NT9",
       "prefLabel": {
         "de": "Expressionismus (ab G. Kaiser 1878)"
+      }
+    },
+    {
+      "id": "https://mzy931.github.io/skos-systematik-test/idsl_1NT10",
+      "prefLabel": {
+        "de": "Moderne (Schriftsteller*innen ab 1914)"
+      }
+    },
+    {
+      "id": "https://mzy931.github.io/skos-systematik-test/idsl_1NT11",
+      "prefLabel": {
+        "de": "Schriftsteller*innen ab 1945"
+      }
+    },
+    {
+      "id": "https://mzy931.github.io/skos-systematik-test/idsl_1NT12",
+      "prefLabel": {
+        "de": "Schriftsteller*innen ab 1980 (einschließlich Migrant*innenliteratur)"
       }
     }
   ],
