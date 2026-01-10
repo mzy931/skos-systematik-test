@@ -9,81 +9,81 @@
   ],
   "narrower": [
     {
-      "id": "https://mzy931.github.io/skos-systematik-test/Sp1.0",
+      "id": "https://mzy931.github.io/skos-systematik-test/idsl_1Sp1.0",
       "prefLabel": {
         "de": "Linguistik, populär"
       }
     },
     {
-      "id": "https://mzy931.github.io/skos-systematik-test/Sp1.1",
+      "id": "https://mzy931.github.io/skos-systematik-test/idsl_1Sp1.1",
       "prefLabel": {
         "de": "Geschichte der Sprachwissenschaft, Nachschlagewerke, Einführungen"
       }
     },
     {
-      "id": "https://mzy931.github.io/skos-systematik-test/Sp1.2",
+      "id": "https://mzy931.github.io/skos-systematik-test/idsl_1Sp1.2",
       "prefLabel": {
         "de": "Allgemeines, Sprachtheorie"
       }
     },
     {
-      "id": "https://mzy931.github.io/skos-systematik-test/Sp1.3",
+      "id": "https://mzy931.github.io/skos-systematik-test/idsl_1Sp1.3",
       "prefLabel": {
         "de": "Phonetik, Phonologie (bis Erscheinungsjahr 2002)"
       }
     },
     {
-      "id": "https://mzy931.github.io/skos-systematik-test/Sp1.4",
+      "id": "https://mzy931.github.io/skos-systematik-test/idsl_1Sp1.4",
       "prefLabel": {
         "de": "Morphologie, Syntax, Semantik (bis Erscheinungsjahr 2002)"
       }
     },
     {
-      "id": "https://mzy931.github.io/skos-systematik-test/Sp1.5",
+      "id": "https://mzy931.github.io/skos-systematik-test/idsl_1Sp1.5",
       "prefLabel": {
         "de": "Phonetik, Phonologie, Morphologie, Syntax, Semantik (ab Erscheinungsjahr 2003)"
       }
     },
     {
-      "id": "https://mzy931.github.io/skos-systematik-test/Sp2.1",
+      "id": "https://mzy931.github.io/skos-systematik-test/idsl_1Sp2.1",
       "prefLabel": {
         "de": "Sprachphilosophie, Pragmatik, Logik, Semiotik"
       }
     },
     {
-      "id": "https://mzy931.github.io/skos-systematik-test/Sp2.2",
+      "id": "https://mzy931.github.io/skos-systematik-test/idsl_1Sp2.2",
       "prefLabel": {
         "de": "Sprachsoziologie, Soziolinguistik, Spracherwerb, Mehrsprachigkeit"
       }
     },
     {
-      "id": "https://mzy931.github.io/skos-systematik-test/Sp2.3",
+      "id": "https://mzy931.github.io/skos-systematik-test/idsl_1Sp2.3",
       "prefLabel": {
         "de": "Kybernetik, Informations- und Kommunikationstheorie, mathematische Linguistik, Computerlinguistik"
       }
     },
     {
-      "id": "https://mzy931.github.io/skos-systematik-test/Sp2.4",
+      "id": "https://mzy931.github.io/skos-systematik-test/idsl_1Sp2.4",
       "prefLabel": {
         "de": "Deutsch als Fremdsprache, Fremdsprachenunterricht, Fachsprache, Deutsch als Minderheitensprache, Lexikographie"
       }
     },
     {
-      "id": "https://mzy931.github.io/skos-systematik-test/Sp2.5",
+      "id": "https://mzy931.github.io/skos-systematik-test/idsl_1Sp2.5",
       "prefLabel": {
         "de": "Psycholinguistik, Neurolinguistik, Kognitive Linguistik"
       }
     }
   ],
   "broader": {
-    "id": "https://mzy931.github.io/skos-systematik-test/Sp",
+    "id": "https://mzy931.github.io/skos-systematik-test/idsl_1Sp",
     "prefLabel": {
       "de": "Sprachwissenschaft (Linguistik)"
     }
   },
   "inScheme": [
     {
-      "id": "https://mzy931.github.io/skos-systematik-test/",
+      "id": "https://mzy931.github.io/skos-systematik-test/idsl_1",
       "title": {
         "de": "Systematik IdSL1"
       }
@@ -91,7 +91,7 @@
   ],
   "inSchemeAll": [
     {
-      "id": "https://mzy931.github.io/skos-systematik-test/"
+      "id": "https://mzy931.github.io/skos-systematik-test/idsl_1"
     }
   ],
   "@context": {
