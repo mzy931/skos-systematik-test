@@ -1,5 +1,5 @@
 @prefix dct: <http://purl.org/dc/terms/> .
-@prefix ifdsl: <https://mzy931.github.io/skos-systematik-test/idsl_1_a> .
+@prefix ifdsl: <https://mzy931.github.io/skos-systematik-test/idsl_1> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -7,7 +7,7 @@ ifdsl: a skos:ConceptScheme ;
     dct:created "2026-01-01"^^xsd:date ;
     dct:creator <https://d-nb.info/gnd/1286271916> ;
     dct:description "Aufstellungssystematik der Bibliothek des IDSL1 an der Universität zu Köln"@de ;
-    dct:title "Systematik IdSL1_a"@de ;
+    dct:title "Systematik IdSL1"@de ;
     skos:hasTopConcept ifdsl:a,
         ifdsl:A,
         ifdsl:AK,
@@ -28,7 +28,7 @@ ifdsl: a skos:ConceptScheme ;
         ifdsl:Vo,
         ifdsl:W,
         ifdsl:Z ;
-    skos:prefLabel "Systematik IfdSL 1_a"@de .
+    skos:prefLabel "Systematik IfdSL 1"@de .
 
 ifdsl:A a skos:Concept ;
     skos:inScheme ifdsl: ;
@@ -668,6 +668,7 @@ ifdsl:H a skos:Concept ;
     skos:notation "H" ;
     skos:prefLabel "\"Hilfswissenschaften\" = Nachbardisziplinen"@de ;
     skos:topConceptOf ifdsl: .
+
 
 
 
