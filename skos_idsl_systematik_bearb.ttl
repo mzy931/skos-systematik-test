@@ -282,7 +282,7 @@ ifdsl:NT a skos:Concept ;
         ifdsl:NT6,
         ifdsl:NT7,
         ifdsl:NT8,
-        ifdsl:NT9 
+        ifdsl:NT9, 
         ifdsl:NT10,
         ifdsl:NT11,
         ifdsl:NT12 ;
@@ -668,6 +668,7 @@ ifdsl:H a skos:Concept ;
     skos:notation "H" ;
     skos:prefLabel "\"Hilfswissenschaften\" = Nachbardisziplinen"@de ;
     skos:topConceptOf ifdsl: .
+
 
 
 
