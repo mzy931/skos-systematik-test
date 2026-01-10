@@ -275,9 +275,6 @@ ifdsl:Ma a skos:Concept ;
 ifdsl:NT a skos:Concept ;
     skos:inScheme ifdsl: ;
     skos:narrower ifdsl:NT1,
-        ifdsl:NT10,
-        ifdsl:NT11,
-        ifdsl:NT12,
         ifdsl:NT2,
         ifdsl:NT3,
         ifdsl:NT4,
@@ -285,7 +282,10 @@ ifdsl:NT a skos:Concept ;
         ifdsl:NT6,
         ifdsl:NT7,
         ifdsl:NT8,
-        ifdsl:NT9 ;
+        ifdsl:NT9 
+        ifdsl:NT10,
+        ifdsl:NT11,
+        ifdsl:NT12 ;
     skos:notation "NT" ;
     skos:prefLabel "Neuere Texte (Autor*innen ab dem Geburtsjahr 1500)"@de ;
     skos:scopeNote "Maßgeblich für die Einordnung in die einzelnen Gruppen ist der Name und das Geburtsjahr der Autor*innen"@de ;
@@ -668,6 +668,7 @@ ifdsl:H a skos:Concept ;
     skos:notation "H" ;
     skos:prefLabel "\"Hilfswissenschaften\" = Nachbardisziplinen"@de ;
     skos:topConceptOf ifdsl: .
+
 
 
 
